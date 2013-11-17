@@ -1,0 +1,49 @@
+Ahora puedes convertir una página web (Responsive web design) en una aplicación Android con solamente usar la URL de la página.
+
+La aplicación resultante funcionará sin problemas como mínimo en todos los dispositivos android 2.2 o superior.
+
+Para ello tienes que bajarte estos dos proyectos preparados para el eclipse:
+
+
+AppWebGenerator
+===============
+Este proyecto es el que contiene la aplicación android resultante. Se deben seguir los siguientes sencillos pasos:
+
+Paso 1 :
+	Renombrar el nombre del proyecto por el nombre que prefieras. 
+
+	Renombrar el nombre del pakete es.com.disastercode.appwebgenerator
+
+	Renombrar el nombre del pakete es.com.disastercode.appwebgenerator.menu
+
+	Nota: hacerlo en este orden y usar el refactor que proporciona el eclipse.
+
+
+Paso 2:
+	Ir a res/values/strings.xml y dar valor a las siguientes variables:
+		
+	 - URL_DIR -> será ladirección web de la página que se quiere usarcomo si fuera una aplicación.
+
+	 - TITLE_APP -> título que quieres que aparezca en la barra superior.
+
+	 - myAdUnitId -> si deseas ponerle publicidad de admob aquí va el código de anuncio que corresponda. 
+			 Dejarlo en blanco si no deseas que salga publicidad.
+
+
+Paso 3:
+	Sustituir las imágenes ic_launcher.png de los directorios, por las del logo que tendrá tu aplicación:
+
+	 - res/drawable-hdpi
+	 - res/drawable-ldpi
+	 - res/drawable-mdpi
+	 - res/drawable-xhdpi
+	 - res/drawable-xxhdpi
+
+	Es recomendable sustituirlos por otros que tengan el mismo tamaño.
+
+
+
+library
+=======
+Este contiene la version 4.2 del actionbarsherlock. 
+Más info en:http://actionbarsherlock.com/
