@@ -22,7 +22,7 @@ Paso 1 :
 Paso 2:
 	Ir a res/values/strings.xml y dar valor a las siguientes variables:
 		
-	 - URL_DIR -> será ladirección web de la página que se quiere usarcomo si fuera una aplicación.
+	 - URL_DIR -> será la dirección web de la página que se quiere usar como si fuera una aplicación.
 
 	 - TITLE_APP -> título que quieres que aparezca en la barra superior.
 
@@ -45,5 +45,25 @@ Paso 3:
 
 library
 =======
-Este contiene la version 4.2 del actionbarsherlock. 
+Este proyecto contiene la version 4.2 del actionbarsherlock. 
 Más info en:http://actionbarsherlock.com/
+
+Se usa esta barra para la parte superior de la aplicación. Si se desea cambiar el color se configura en el fichero res/drawable/background.xml
+
+
+
+
+
+Ejemplo de uso:
+
+Web EcoDom: http://disastercode.com.es/appecodom
+
+Se trata de una web (responsive web design) para llevar un control de gastos. Está realizada con el Framework de PHP Codeigniter junto con la extension Grocery Crud.
+Además, se ha utilizado para dibujar las gráficas con estadísticas la libreria JGraph.
+
+Aplicación android resultante: https://play.google.com/store/apps/details?id=es.com.disastercode.appecodom&hl=es_419
+
+
+
+
+
